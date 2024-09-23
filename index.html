@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slow Fashion Quiz</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Slow Fashion Quiz</h1>
+    <form id="quizForm">
+        <!-- Question 1 -->
+        <div class="question">
+            <p>1. What is slow fashion?</p>
+            <label><input type="radio" name="q1" value="wrong"> Fast and cheap clothing</label><br>
+            <label><input type="radio" name="q1" value="correct"> Thoughtful clothing production that respects people and the environment</label><br>
+            <label><input type="radio" name="q1" value="wrong"> Clothing that's out of style quickly</label>
+        </div>
+
+        <!-- Question 2 -->
+        <div class="question">
+            <p>2. Which of these is an example of a slow fashion practice?</p>
+            <label><input type="radio" name="q2" value="correct"> Buying second-hand clothing</label><br>
+            <label><input type="radio" name="q2" value="wrong"> Buying new trendy clothes every season</label><br>
+            <label><input type="radio" name="q2" value="wrong"> Throwing away clothes after wearing them a few times</label>
+        </div>
+
+        <!-- Question 3 -->
+        <div class="question">
+            <p>3. How does slow fashion benefit the environment?</p>
+            <label><input type="radio" name="q3" value="wrong"> Increases landfill waste</label><br>
+            <label><input type="radio" name="q3" value="correct"> Reduces carbon footprint by minimizing production and waste</label><br>
+            <label><input type="radio" name="q3" value="wrong"> Uses more energy for production</label>
+        </div>
+
+        <!-- Question 4 -->
+        <div class="question">
+            <p>4. Which of these brands is known for slow fashion?</p>
+            <label><input type="radio" name="q4" value="wrong"> H&M</label><br>
+            <label><input type="radio" name="q4" value="correct"> Patagonia</label><br>
+            <label><input type="radio" name="q4" value="wrong"> Shein</label>
+        </div>
+
+        <!-- Question 5 -->
+        <div class="question">
+            <p>5. Which material is more sustainable for slow fashion?</p>
+            <label><input type="radio" name="q5" value="correct"> Organic cotton</label><br>
+            <label><input type="radio" name="q5" value="wrong"> Polyester</label><br>
+            <label><input type="radio" name="q5" value="wrong"> Nylon</label>
+        </div>
+
+        <button type="button" onclick="checkAnswers()">Submit</button>
+    </form>
+
+    <div id="result"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
